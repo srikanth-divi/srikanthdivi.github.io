@@ -1,2 +1,7 @@
 # srikanthdivi.github.io
-Srikanth website
+Hi!
+
+##About Me
+Faculty of Chemical Engineering at Manipal Institute of Technology, Manipal.
+
+
