@@ -1,0 +1,15 @@
+body { font-family: Arial, sans-serif; margin: 20px; }
+header { text-align: center; }
+nav ul { list-style: none; padding: 0; display: flex; justify-content: center; }
+nav li { margin: 0 10px; }
+section { margin-top: 20px; padding: 20px; border: 1px solid #ccc; }
+
+/* Pure CSS Tabs (Optional Enhancement) */
+.tabs { display: none; } /* Hide radio inputs */
+.tab-label { cursor: pointer; padding: 10px; background: #eee; }
+.tab-content { display: none; }
+.tabs:checked + .tab-label { background: #ddd; }
+.tabs:checked ~ .tab-content { display: block; }
+
+/* Media query for responsiveness */
+@media (max-width: 600px) { nav ul { flex-direction: column; } }
